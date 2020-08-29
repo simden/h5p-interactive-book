@@ -1,0 +1,201 @@
+{
+  "semantics": [
+    {
+      "label": "Activer la page couverture",
+      "description": "Une couverture qui présente des détails sur le livre"
+    },
+    {
+      "label": "Page couverture",
+      "fields": [
+        {
+          "label": "Description de couverture",
+          "description": "Ce texte sera la description de votre livre."
+        },
+        {
+          "label": "Image de couverture",
+          "description": "Une image optionnelle pour l'arrière-plan de l'introduction."
+        },
+        {
+          "label": "Texte alternatif pour l'image de couverture",
+          "description": "Un texte alternatif pour l'image de couverture"
+        }
+      ]
+    },
+    {
+      "label": "Pages",
+      "entity": "Page",
+      "widgets": [
+        {
+          "label": "Default"
+        }
+      ],
+      "field": {
+        "label": "Item",
+        "fields": [
+          {
+            "label": "Page"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Behavioural settings",
+      "fields": [
+        {
+          "label": "Display table of contents as default",
+          "description": "When enabled the table of contents is showed when opening the book"
+        },
+        {
+          "label": "Display Progress Indicators",
+          "description": "When enabled there will be indicators per page showing the user if he is done with the page or not."
+        },
+        {
+          "label": "Enable automatic progress",
+          "description": "If enabled a page without tasks is considered done when viewed. A page with tasks when all tasks are done. If disabled there will be a button at the bottom of every page for the user to click when done with the page."
+        },
+        {
+          "label": "Display summary",
+          "description": "When enabled the user can see a summary and submit the progress/answers"
+        }
+      ]
+    },
+    {
+      "label": "Translation for \"Read\"",
+      "default": "Lire"
+    },
+    {
+      "label": "Translation for \"Display 'Table of contents'\"",
+      "default": "Afficher 'Table des matières'"
+    },
+    {
+      "label": "Translation for \"Hide 'Table of contents'\"",
+      "default": "Cacher 'Table des matières'"
+    },
+    {
+      "label": "Translation for \"Next page\"",
+      "default": "Page suivante"
+    },
+    {
+      "label": "Translation for \"Previous page\"",
+      "default": "Page précédente"
+    },
+    {
+      "label": "Translation for \"Page completed!\"",
+      "default": "Page completée!"
+    },
+    {
+      "label": "Translation for \"@pages of @total completed\" (@pages and @total will be replaced by actual values)",
+      "default": "@pages sur @total completée(s)"
+    },
+    {
+      "label": "Translation for \"Incomplete page\"",
+      "default": "Page incomplète"
+    },
+    {
+      "label": "Translation for \"Navigate to the top\"",
+      "default": "Aller au début"
+    },
+    {
+      "label": "Translation for \"I have finished this page\"",
+      "default": "J'ai terminé cette page"
+    },
+    {
+      "label": "Fullscreen button label",
+      "default": "Plein écran"
+    },
+    {
+      "label": "Exit fullscreen button label",
+      "default": "Sortir du plein écran"
+    },
+    {
+      "label": "Page progress in book",
+      "description": "\"@count\" will be replaced by page count, and \"@total\" with the total number of pages",
+      "default": "@count sur @total pages"
+    },
+    {
+      "label": "Interaction progress",
+      "description": "\"@count\" will be replaced by page count, and \"@total\" with the total number of pages",
+      "default": "@count sur @total interactions"
+    },
+    {
+      "label": "Translation for \"Submit report\"",
+      "default": "Soumettre le rapport"
+    },
+    {
+      "label": "Label for \"restart\" button",
+      "default": "Recommencer"
+    },
+    {
+      "label": "Summary header",
+      "default": "Sommaire"
+    },
+    {
+      "label": "Translation for \"All interactions\"",
+      "default": "Toutes les interactions"
+    },
+    {
+      "label": "Translation for \"Unanswered interactions\"",
+      "default": "Interactions non complétées"
+    },
+    {
+      "label": "Score",
+      "description": "\"@score\" will be replaced with current score, and \"@maxscore\" will be replaced with max achievable score",
+      "default": "@score / @maxscore"
+    },
+    {
+      "label": "Per page interactions completion",
+      "description": "\"@left\" will be replaced with remaining interactions, and \"@max\" will be replaced with total number of interactions on the page",
+      "default": "@left sur @max interactions completées"
+    },
+    {
+      "label": "Translation for \"No interactions\"",
+      "default": "Aucune interaction"
+    },
+    {
+      "label": "Translation for \"Score\"",
+      "default": "Résultat"
+    },
+    {
+      "label": "Label for \"Summary & submit\" button",
+      "default": "Sommaire & soumettre"
+    },
+    {
+      "label": "Translation for \"You have not interacted with any pages.\"",
+      "default": "Vous n'avez pas interagi avec une page."
+    },
+    {
+      "label": "Translation for \"You have to interact with at least one page before you can see the summary.\"",
+      "default": "Vous devez interagir avec au moins une page pour voir le sommaire."
+    },
+    {
+      "label": "Translation for \"Your answers are submitted for review!\"",
+      "default": "Vos réponses ont été soumises pour révision!"
+    },
+    {
+      "label": "Summary progress label",
+      "default": "Avancement dans le livre"
+    },
+    {
+      "label": "Interactions progress label",
+      "default": "Avancement dans les interactions"
+    },
+    {
+      "label": "Total score label",
+      "default": "Résultat total"
+    },
+    {
+      "label": "Accessibility texts",
+      "fields": [
+        {
+          "label": "Page progress textual alternative",
+          "description": "An alternative text for the visual page progress. @page and @total variables available.",
+          "default": "Page @page de @total."
+        },
+        {
+          "label": "Label for expanding/collapsing navigation menu",
+          "default": "Basculer l'affichage du menu de navigation"
+        }
+      ]
+    }
+  ]
+}

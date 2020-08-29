@@ -30,8 +30,8 @@
     "node-sass": "^4.14.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.13.2",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "element-scroll-polyfill": "^1.0.1",
