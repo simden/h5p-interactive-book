@@ -360,7 +360,7 @@ class Summary extends H5P.EventDispatcher {
     text.innerHTML = this.l10n.yourAnswersAreSubmittedForReview;
     submittedContainer.appendChild(text);
 
-    submittedContainer.appendChild(this.createRestartButton());
+    //submittedContainer.appendChild(this.createRestartButton());
 
     return submittedContainer;
   }
